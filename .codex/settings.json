@@ -1,0 +1,24 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(qmd search:*)",
+      "Bash(qmd query:*)",
+      "Bash(qmd get:*)",
+      "Bash(qmd multi-get:*)",
+      "Bash(qmd ls:*)",
+      "Bash(qmd status:*)",
+      "Bash(qmd context list:*)",
+      "mcp__qmd__*"
+    ],
+    "deny": [
+      "Bash(qmd collection add:*)",
+      "Bash(qmd collection remove:*)"
+    ]
+  },
+  "mcpServers": {
+    "qmd": {
+      "command": "qmd",
+      "args": ["mcp"]
+    }
+  }
+}

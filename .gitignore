@@ -1,0 +1,23 @@
+# Local state — never committed (each user's own data).
+# Leading slash anchors to repo root so templates/memory and templates/config
+# (the scaffolds the /setup copies from) stay tracked.
+/memory/
+/config/
+/recordings/
+/knowledge/_private/
+
+# Local tool/editor state
+/qmd/
+/.obsidian/
+.DS_Store
+
+# Per-machine Claude/Codex local settings (paths, IDs, tokens)
+.claude/settings.local.json
+.codex/settings.local.json
+
+# Python
+__pycache__/
+*.pyc
+
+# Office temp/lock files
+~$*

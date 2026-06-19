@@ -1,0 +1,4 @@
+{
+  "backend": "local",
+  "whisper_model": "medium"
+}
